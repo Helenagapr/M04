@@ -1,0 +1,188 @@
+{
+    "pokemons": [
+        {
+            "id": "0001",
+            "nom":"Bulbasaur",
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/43/latest/20190406170624/Bulbasaur.png",
+            "tipus": ["planta", "veneno"],
+            "categoria": "Semilla",
+            "pes": {
+                "quant": 6.9,
+                "unitat de mesura": "kg"
+            },
+            "altura": {
+                "quant": 0.7,
+                "unitat de mesura": "metres"
+            },
+            "estadístiques": {
+                "velocitat": "3",
+                "fortañesa": "3",
+                "precisió": "4",
+                "resistèmcia": "4",
+                "salt": "3"
+            },
+            "moviment": [
+                {
+                    "nom": "Placaje",
+                    "descripció": {
+                        "nivell": 1,
+                        "tipus": "normal",
+                        "classe": "físic",
+                        "combat": "causa dany i no té ningún efecte secundari"
+                    },
+                    "potència": 40,
+                    "precisió": 100,
+                    "PP": "35 (56)",
+                    "contacte": "true"
+                },
+                {
+                    "nom": "Hoja afilada",
+                    "descripció": {
+                        "nivell": 12,
+                        "tipus": "planta",
+                        "classe": "físic",
+                        "combat": "causa dany i té altes possibilitats de donar dany crític. També pot obtenir diversos objectes al destruir plantes"
+                    },
+                    "potència": 55,
+                    "precisió": 95,
+                    "PP": "25 (40)",
+                    "contacte": "false"
+                }
+            ],
+            "evolucions": [
+                {
+                    "id": "0002",
+                    "nom":"Ivysaur",
+                    "nivell": 16
+                },
+                {
+                    "id": "0003",
+                    "nom":"Venusaur",
+                    "nivell": 32
+                }
+            ]
+            },
+        
+
+
+        {
+            "id": "0022",
+            "nom":"Fearow",
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/4/41/latest/20200307023409/Fearow.png",
+            "tipus": ["normal", "volador"],
+            "categoria": "Pico",
+            "pes": {
+                "quant": 38.0,
+                "unitat de mesura": "kg"
+            },
+            "altura": {
+                "quant": 1.2,
+                "unitat de mesura": "metres"
+            },
+            "estadístiques": {
+                "velocitat": "4",
+                "fortañesa": "5",
+                "precisió": "3",
+                "resistèmcia": "3",
+                "salt": "5"
+            },
+            "moviment": [
+                {
+                    "nom": "Taladradora",
+                    "descripció": {
+                        "nivell": 1,
+                        "tipus": "tierra",
+                        "classe": "físic",
+                        "combat": "causa dany i té altes possibilitats de donar dany crític."
+                    },
+                    "potència": 80,
+                    "precisió": 95,
+                    "PP": "10 (16)",
+                    "contacte": "true"
+                },
+                {
+                    "nom": "Malicioso",
+                    "descripció": {
+                        "nivell": 4,
+                        "tipus": "normal",
+                        "classe": "estat",
+                        "combat": "baixa el nivell de defensa del objectiu i en combates dobles o triples afecta a tots els oponents adjunts als usuaris"
+                    },
+                    "potència": null,
+                    "precisió": 100,
+                    "PP": "10 (16)",
+                    "contacte": "false"
+                }
+            ],
+            "evolucions": [
+                {
+                    "id": "0023",
+                    "nom":"Fearow",
+                    "nivell": 20
+                }
+            ]
+        },
+        {
+            "id": "0032",
+            "nom":"Nidoran",
+            "imatge": "https://images.wikidexcdn.net/mwuploads/wikidex/6/60/latest/20230613021056/Nidoran%E2%99%82.png",
+            "tipus": "veneno",
+            "categoria": "Pin veneno",
+            "pes": {
+                "quant": 9.0,
+                "unitat de mesura": "kg"
+            },
+            "altura": {
+                "quant": 0.5,
+                "unitat de mesura": "metres"
+            },
+            "estadístiques": {
+                "velocitat": "5",
+                "fortañesa": "4",
+                "precisió": "3",
+                "resistèmcia": "2",
+                "salt": "3"
+            },
+            "moviment": [
+                {
+                    "nom": "Picotazo",
+                    "descripció": {
+                        "nivell": 5,
+                        "tipus": "volador",
+                        "classe": "físic",
+                        "combat": "causa dany i no té ningún efecte secundari. En combats triples, a més, pot golpellar a un pokemon no adjunt"
+                    },
+                    "potència": 35,
+                    "precisió": 100,
+                    "PP": "35 (56)",
+                    "contacte": "false"
+                },
+                {
+                    "nom": "Cornada",
+                    "descripció": {
+                        "nivell": 30,
+                        "tipus": "normal",
+                        "classe": "físic",
+                        "combat": "causa dany i no té ningún efecte secundari."
+                    },
+                    "potència": 65,
+                    "precisió": 100,
+                    "PP": "25 (40)",
+                    "contacte": "true"
+                }
+            ],
+            "evolucions": [
+                {
+                    "id": "0033",
+                    "nom":"Nidorino",
+                    "nivell": 16
+                },
+                {
+                    "id": "0034",
+                    "nom":"Nidoking",
+                    "nivell": "piedra lunar"
+                }
+            ]
+        }
+    ]
+}
