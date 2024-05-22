@@ -1,0 +1,248 @@
+{
+  "start": {
+    "from": "Aaron Wilman",
+    "correo_electronico": "Recientemente, nuestro equipo de excavación ha hecho un descubrimiento extraordinario en un antiguo sitio arqueológico: ¡una cápsula del tiempo enterrada por una civilización perdida hace siglos! Dentro de esta misteriosa cápsula, se cree que se encuentran valiosos artefactos y conocimientos que podrían cambiar nuestra comprensión de la historia. Sin embargo, la cápsula está protegida por un sistema de seguridad intrincado que solo puede ser desactivado por mentes brillantes como la tuya. Estamos buscando un equipo de arqueólogos aficionados valientes y astutos que se unan a nosotros en esta emocionante expedición para desentrañar los secretos de la cápsula del tiempo.",
+    "mission": "https://drive.google.com/file/d/15DELz4_rx4zZ8ykafCEkWW0ze9LWlBer/view?usp=sharing",
+    "comando_para_desencriptar": "/porton_{codi1}_{codi2}_{codi3}_{codi4}_{codi5}",
+    "mapa": "https://drive.google.com/file/d/1UFjWzwYHlxuFNePhX5MCZzOCWrqy62Cj/view?usp=sharing",
+    "hints": "/hint_{colorPuerta}",
+    "creditos": [
+      "Helena",
+      "Kilian",
+      "Daniel"
+    ]
+  },
+  "Samanta": {
+    "from": "Samanta Clark",
+    "mensaje": "Las puertas son la clave",
+    "tips": {
+      "tip_1": "Hay 5 puertas diferentes (roja, blanca, azul, amarilla, verde)",
+      "tip_2": "Parece que detrás de cada una esconde algun tipo de información para abrir el porton",
+      "tip_3": "Ten cuidado, hay lugares que té pueden dar pistas falsas",
+      "tip_4": "El orden aún no lo conocemos"
+    }
+  },
+  "Jordi": {
+    "from": "Jordi Cruz",
+    "mensaje": "Tengo información importante",
+    "texto encriptado": "https://drive.google.com/file/d/1RpAfYFBUL4C43iMmku4keSICSbexK9OG/view?usp=sharing",
+    "tips": {
+      "tip_1": "Descubre el mensaje oculto en el texto",
+      "tip_2": "Revisa las localizaciones de la excavación",
+      "tip_3": "El orden está en el texto",
+      "tip_4": "(??+(??X??)-??)X??"
+    }
+  },
+  "Claudia": {
+    "from": "Claudia Fernandez",
+    "mensaje": "El portón secreto",
+    "puzzle": "https://drive.google.com/file/d/1q5AX42PLHNsAjdoCfWwo-sy7bkFQDMhN/view?usp=sharing"
+  },
+  "verde": {
+    "Operacion": {
+      "hint": "🏵️= 2",
+      "regla_1": {
+        "elementos": "2(🌸+(🌸/2))",
+        "respuesta": "2💮"
+      },
+      "regla_2": {
+        "elementos": "2💮-3🌸",
+        "respuesta": 0
+      },
+      "regla_3": {
+        "elementos": "🌸+2🏵️",
+        "respuesta": "💮-1"
+      },
+      "regla_4": {
+        "elementos": "2🌸+2🏵️",
+        "respuesta": "💐"
+      },
+      "regla_5": {
+        "elementos": "2💮+2🏵️-🌸",
+        "respuesta": "💐"
+      },
+      "regla_6": {
+        "elementos": "2💐-((💮-1)+(🌸+2🏵️))",
+        "respuesta": "desconocido"
+      }
+    }
+  },
+  "roja": {
+    "pista": "Haz un post con esta nueva información en /posts/ reemplazando los interrogantes por el precio correcto (POST). RECUERDA: elimna las comillas",
+    "post": [
+      {
+        "id": "5",
+        "nombre": "Brazalete de Cleopatra",
+        "precio": "???"
+      }
+    ],
+    "resposta": "Suma todos los precios de los objetos encontrados en la excavación. (GET) ATENCIÓN: Revisa que no se repitan codigos"
+  },
+  "azul": {
+    "adivinanza": "Soy un gran amuleto, represento al sol naciente y decían en Egipto que revivo a la gente. ¿Que soy?"
+  },
+  "amarilla": {
+    "primera palabra": {
+      "respuesta": "Revisa el diccionario de jerogrificos y modifica todos los simbolos '#' por la letra 'O' i todos los simbolos '@' por la letra 'S'. (PUT). IMPORTANT: Se accede desde /diccionario y debes saber el id para pdoer modificarlo. No hagas trampas, hay operadores para saber eso."
+    },
+    "segunda palabra": {
+      "pregunta": "¿Quién soy?",
+      "papiros": {
+        "papiro_1": "https://drive.google.com/file/d/1FE87gnf6nvI6ol8nbVlP9BRsNcn8rwoC/view?usp=sharing",
+        "papiro_2": "https://drive.google.com/file/d/1mgnvjIFPxgEqqx1DMY7XX-ElMs5gvEhr/view?usp=sharing",
+        "papiro_3": "https://drive.google.com/file/d/1NK32BPM_ew-uNVnbuWo1u4_brMvFQ3fq/view?usp=sharing",
+        "papiro_4": "https://drive.google.com/file/d/1gmrAfvA8Xj5NdQj_GYLGdbSWoB_DFp8O/view?usp=sharing"
+      },
+      "diccionario": "a = 01100001"
+    }
+  },
+  "blanca": {
+    "nombre": "La balanza de Maat",
+    "items": {
+      "item1": "verdad",
+      "item2": "justicia",
+      "item3": "sabiduria",
+      "item4": "avaricia",
+      "item5": "gula"
+    },
+    "resposta": "Elimina los items que te darian desventaja para pasar la prueba del dios Osiris (DELETE en /items) IMPORTANTE: Primero debes saber el id para poder elminarlo (nombre=???). No hagas trampas, hay operadores para saber eso. ",
+    "calcular": "Aquellos con más de 5 puntos son validos, la cantidad de resultados es la clave. (GET en /items). Hay operadores para saber eso."
+  },
+  "diccionario": [
+    {
+      "id": "1",
+      "letra": "D"
+    },
+    {
+      "id": "2",
+      "letra": "I"
+    },
+    {
+      "id": "3",
+      "letra": "#"
+    },
+    {
+      "id": "4",
+      "letra": "@"
+    },
+    {
+      "id": "5",
+      "letra": "@"
+    },
+    {
+      "id": "6",
+      "letra": "#"
+    },
+    {
+      "id": "7",
+      "letra": "L"
+    },
+    {
+      "id": "8",
+      "letra": "A"
+    },
+    {
+      "id": "9",
+      "letra": "R"
+    }
+  ],
+  "items": [
+    {
+        "id": "1",
+        "nombre": "verdad",
+        "puntos": 10
+      },
+      {
+        "id": "2",
+        "nombre": "avaricia",
+        "puntos": 6
+      },
+      {
+        "id": "3",
+        "nombre": "valor",
+        "puntos": 20
+      },
+      {
+        "id": "4",
+        "nombre": "sabiduria",
+        "puntos": 13
+      },
+      {
+        "id": "5",
+        "nombre": "justicia",
+        "puntos": 7
+      },
+      {
+        "id": "6",
+        "nombre": "miedo",
+        "puntos": 1
+      },
+      {
+        "id": "7",
+        "nombre": "perdon",
+        "puntos": 11
+      },
+      {
+        "id": "8",
+        "nombre": "gula",
+        "puntos": 12
+      }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "nombre": "Rubi",
+      "precio": 668
+    },
+    {
+      "id": "2",
+      "nombre": "Cruz de Anubis",
+      "precio": 985
+    },
+    {
+      "id": "3",
+      "nombre": "Escarabajo dorado",
+      "precio": 222
+    },
+    {
+      "id": "4",
+      "nombre": "Papiro",
+      "precio": 763
+    }
+  ],
+  "porton_5746_DIOSSOLARRA_5_escarabajo_20": {
+    "tesoro": "un pin y una chapa (y las gracias por jugar)",
+    "emoji": "🥳",
+    "premi": "https://youtu.be/xvFZjo5PgG0?si=kQ9K7Cx8pt4bkZrb"
+  },
+  "hint_verde": [
+    {
+      "hint": "🌸 = 10",
+      "id": "1817"
+    }
+  ],
+  "hint_roja": [
+    {
+      "hint": "Mira bien el mapa del principio.",
+      "id": "6e80"
+    }
+  ],
+  "hint_azul": [
+    {
+      "hint": "Insecto, algunos hacen bolas de basura.",
+      "id": "06f9"
+    }
+  ],
+  "hint_blanca": [
+    {
+      "hint": "/items?puntos_gt=5",
+      "id": "193b"
+    }
+  ],
+  "hint_amarilla": [
+    {
+      "hint": "Es el dios de algo: 01110011-01101111-01101100",
+      "id": "5565"
+    }
+  ]
+}
